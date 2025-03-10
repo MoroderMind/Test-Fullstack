@@ -1,0 +1,37 @@
+<div class="d-flex justify-content-between align-items-center mt-3">
+    <div>
+        Showing @(StartIndex + 1) to @Math.Min(StartIndex + PageSize, TotalCount) of @TotalCount items
+    </div>
+    <div>
+        <button class="btn btn-primary me-2" @onclick="OnPreviousPage" disabled="@(StartIndex == 0)">
+            Previous
+        </button>
+        <button class="btn btn-primary" @onclick="OnNextPage" disabled="@(StartIndex + PageSize >= TotalCount)">
+            Next
+        </button>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int StartIndex { get; set; }
+
+    [Parameter]
+    public int TotalCount { get; set; }
+
+    [Parameter]
+    public int PageSize { get; set; } = 10;
+
+    [Parameter]
+    public EventCallback<int> OnPageChanged { get; set; }
+
+    private async Task OnNextPage()
+    {
+        await OnPageChanged.InvokeAsync(StartIndex + PageSize);
+    }
+
+    private async Task OnPreviousPage()
+    {
+        await OnPageChanged.InvokeAsync(StartIndex - PageSize);
+    }
+} 

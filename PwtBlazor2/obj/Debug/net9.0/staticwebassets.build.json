@@ -1,0 +1,1042 @@
+{
+  "Version": 1,
+  "Hash": "ORXOKZqkiwK/GvGFAIFfPpT/83eLwMM+PZO44DjGsW8=",
+  "Source": "PwtBlazor2",
+  "BasePath": "_content/PwtBlazor2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PwtBlazor2\\wwwroot",
+      "Source": "PwtBlazor2",
+      "ContentRoot": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\wwwroot\\",
+      "BasePath": "_content/PwtBlazor2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\a6mmjm88aw-ah02vnbcge.gz",
+      "SourceId": "PwtBlazor2",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/PwtBlazor2",
+      "RelativePath": "PwtBlazor2#[.{fingerprint=ah02vnbcge}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\scopedcss\\bundle\\PwtBlazor2.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "90p9x5n85w",
+      "Integrity": "J7SUlIYGzFbTx6vmFSu6Kr9j0t7Hwcc840HTEoC7s0w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\scopedcss\\bundle\\PwtBlazor2.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\iooxydxh8u-ah02vnbcge.gz",
+      "SourceId": "PwtBlazor2",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/PwtBlazor2",
+      "RelativePath": "PwtBlazor2#[.{fingerprint=ah02vnbcge}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PwtBlazor2.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "90p9x5n85w",
+      "Integrity": "J7SUlIYGzFbTx6vmFSu6Kr9j0t7Hwcc840HTEoC7s0w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PwtBlazor2.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\ni5h81546j-4kywy7iv6g.gz",
+      "SourceId": "PwtBlazor2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/PwtBlazor2",
+      "RelativePath": "app#[.{fingerprint=4kywy7iv6g}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\wwwroot\\app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "zcos8w4b7w",
+      "Integrity": "rQ06ZVppJMbFntqcFRQT6szW4P5LSAxdi1yON8P8sdE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\scopedcss\\bundle\\PwtBlazor2.styles.css",
+      "SourceId": "PwtBlazor2",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/PwtBlazor2",
+      "RelativePath": "PwtBlazor2#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "ah02vnbcge",
+      "Integrity": "7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\scopedcss\\bundle\\PwtBlazor2.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PwtBlazor2.bundle.scp.css",
+      "SourceId": "PwtBlazor2",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/PwtBlazor2",
+      "RelativePath": "PwtBlazor2#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "ah02vnbcge",
+      "Integrity": "7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PwtBlazor2.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\wwwroot\\app.css",
+      "SourceId": "PwtBlazor2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\wwwroot\\",
+      "BasePath": "_content/PwtBlazor2",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4kywy7iv6g",
+      "Integrity": "9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.4kywy7iv6g.css",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\ni5h81546j-4kywy7iv6g.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000721500722"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1385"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rQ06ZVppJMbFntqcFRQT6szW4P5LSAxdi1yON8P8sdE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:20:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4kywy7iv6g"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30="
+        }
+      ]
+    },
+    {
+      "Route": "app.4kywy7iv6g.css",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:20:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4kywy7iv6g"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30="
+        }
+      ]
+    },
+    {
+      "Route": "app.4kywy7iv6g.css.gz",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\ni5h81546j-4kywy7iv6g.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rQ06ZVppJMbFntqcFRQT6szW4P5LSAxdi1yON8P8sdE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:20:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4kywy7iv6g"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rQ06ZVppJMbFntqcFRQT6szW4P5LSAxdi1yON8P8sdE="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\ni5h81546j-4kywy7iv6g.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000721500722"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1385"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rQ06ZVppJMbFntqcFRQT6szW4P5LSAxdi1yON8P8sdE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:20:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:20:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.gz",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\ni5h81546j-4kywy7iv6g.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rQ06ZVppJMbFntqcFRQT6szW4P5LSAxdi1yON8P8sdE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:20:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rQ06ZVppJMbFntqcFRQT6szW4P5LSAxdi1yON8P8sdE="
+        }
+      ]
+    },
+    {
+      "Route": "PwtBlazor2.ah02vnbcge.bundle.scp.css",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\iooxydxh8u-ah02vnbcge.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003012048193"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "331"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J7SUlIYGzFbTx6vmFSu6Kr9j0t7Hwcc840HTEoC7s0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ah02vnbcge"
+        },
+        {
+          "Name": "label",
+          "Value": "PwtBlazor2.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8="
+        }
+      ]
+    },
+    {
+      "Route": "PwtBlazor2.ah02vnbcge.bundle.scp.css",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PwtBlazor2.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ah02vnbcge"
+        },
+        {
+          "Name": "label",
+          "Value": "PwtBlazor2.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8="
+        }
+      ]
+    },
+    {
+      "Route": "PwtBlazor2.ah02vnbcge.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\iooxydxh8u-ah02vnbcge.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "331"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J7SUlIYGzFbTx6vmFSu6Kr9j0t7Hwcc840HTEoC7s0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ah02vnbcge"
+        },
+        {
+          "Name": "label",
+          "Value": "PwtBlazor2.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J7SUlIYGzFbTx6vmFSu6Kr9j0t7Hwcc840HTEoC7s0w="
+        }
+      ]
+    },
+    {
+      "Route": "PwtBlazor2.ah02vnbcge.styles.css",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\a6mmjm88aw-ah02vnbcge.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003012048193"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "331"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J7SUlIYGzFbTx6vmFSu6Kr9j0t7Hwcc840HTEoC7s0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ah02vnbcge"
+        },
+        {
+          "Name": "label",
+          "Value": "PwtBlazor2.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8="
+        }
+      ]
+    },
+    {
+      "Route": "PwtBlazor2.ah02vnbcge.styles.css",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\scopedcss\\bundle\\PwtBlazor2.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ah02vnbcge"
+        },
+        {
+          "Name": "label",
+          "Value": "PwtBlazor2.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8="
+        }
+      ]
+    },
+    {
+      "Route": "PwtBlazor2.ah02vnbcge.styles.css.gz",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\a6mmjm88aw-ah02vnbcge.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "331"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J7SUlIYGzFbTx6vmFSu6Kr9j0t7Hwcc840HTEoC7s0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ah02vnbcge"
+        },
+        {
+          "Name": "label",
+          "Value": "PwtBlazor2.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J7SUlIYGzFbTx6vmFSu6Kr9j0t7Hwcc840HTEoC7s0w="
+        }
+      ]
+    },
+    {
+      "Route": "PwtBlazor2.bundle.scp.css",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\iooxydxh8u-ah02vnbcge.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003012048193"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "331"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J7SUlIYGzFbTx6vmFSu6Kr9j0t7Hwcc840HTEoC7s0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8="
+        }
+      ]
+    },
+    {
+      "Route": "PwtBlazor2.bundle.scp.css",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PwtBlazor2.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8="
+        }
+      ]
+    },
+    {
+      "Route": "PwtBlazor2.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\iooxydxh8u-ah02vnbcge.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "331"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J7SUlIYGzFbTx6vmFSu6Kr9j0t7Hwcc840HTEoC7s0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J7SUlIYGzFbTx6vmFSu6Kr9j0t7Hwcc840HTEoC7s0w="
+        }
+      ]
+    },
+    {
+      "Route": "PwtBlazor2.styles.css",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\a6mmjm88aw-ah02vnbcge.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003012048193"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "331"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J7SUlIYGzFbTx6vmFSu6Kr9j0t7Hwcc840HTEoC7s0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8="
+        }
+      ]
+    },
+    {
+      "Route": "PwtBlazor2.styles.css",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\scopedcss\\bundle\\PwtBlazor2.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7lkJEiSD9nNAzyU6QOIQ1HqKKxcI4k2tzcdGc29pEV8="
+        }
+      ]
+    },
+    {
+      "Route": "PwtBlazor2.styles.css.gz",
+      "AssetFile": "C:\\Users\\EMil\\Desktop\\PwtTest2\\PwtBlazor2\\obj\\Debug\\net9.0\\compressed\\a6mmjm88aw-ah02vnbcge.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "331"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J7SUlIYGzFbTx6vmFSu6Kr9j0t7Hwcc840HTEoC7s0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 19:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J7SUlIYGzFbTx6vmFSu6Kr9j0t7Hwcc840HTEoC7s0w="
+        }
+      ]
+    }
+  ]
+}

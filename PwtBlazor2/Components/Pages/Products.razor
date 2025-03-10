@@ -1,0 +1,67 @@
+@page "/products"
+@using PwtBlazor2.Models
+@using PwtBlazor2.Services
+@inject ProductService ProductService
+@rendermode InteractiveServer
+
+<PageTitle>Products</PageTitle>
+
+<h3>Products</h3>
+
+<ProductFilters 
+    OnAllProducts="LoadProducts"
+    OnInStockProducts="LoadInStockProducts"
+    OnSortByPrice="LoadSortedProducts" />
+
+@if (allProducts == null)
+{
+    <p>Loading...</p>
+}
+else if (!allProducts.Any())
+{
+    <div class="alert alert-info" role="alert">
+        No products found.
+    </div>
+}
+else
+{
+    <ProductTable Products="@allProducts.Skip(startIndex).Take(10).ToList()" />
+    
+    <Pagination 
+        StartIndex="@startIndex"
+        TotalCount="@allProducts.Count"
+        OnPageChanged="HandlePageChanged" />
+}
+
+@code {
+    private List<Product>? allProducts;
+    private int startIndex = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadProducts();
+    }
+
+    private async Task LoadProducts()
+    {
+        allProducts = await ProductService.GetProductsAsync();
+        startIndex = 0;
+    }
+
+    private async Task LoadSortedProducts(bool ascending)
+    {
+        allProducts = await ProductService.GetProductsSortedByPriceAsync(ascending);
+        startIndex = 0;
+    }
+
+    private async Task LoadInStockProducts()
+    {
+        allProducts = await ProductService.GetInStockProductsAsync();
+        startIndex = 0;
+    }
+
+    private async Task HandlePageChanged(int newStartIndex)
+    {
+        startIndex = newStartIndex;
+    }
+} 

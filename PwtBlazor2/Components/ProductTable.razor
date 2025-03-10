@@ -1,0 +1,47 @@
+@using PwtBlazor2.Models
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Supplier No</th>
+                <th>Style No</th>
+                <th>Description</th>
+                <th>Size</th>
+                <th>Color</th>
+                <th>EAN</th>
+                <th>In Stock</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Products)
+            {
+                <tr>
+                    <td>@product.SupplierNo</td>
+                    <td>@product.StyleNo</td>
+                    <td>@product.ItemDescription</td>
+                    <td>@product.Size</td>
+                    <td>@product.ColorCodeName</td>
+                    <td>@product.EAN</td>
+                    <td>
+                        @if (product.InStock)
+                        {
+                            <span class="badge bg-success">Yes</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger">No</span>
+                        }
+                    </td>
+                    <td>@product.SuggestedRetailPrice.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    [Parameter]
+    public List<Product> Products { get; set; } = new();
+} 

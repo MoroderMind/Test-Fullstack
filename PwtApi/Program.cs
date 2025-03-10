@@ -8,14 +8,24 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddEndpointsApiExplorer();
 
+// Add CORS 
+// Need to hardcore the localhost link..
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowBlazor", policy =>
+    {
+        policy.WithOrigins("http://localhost:5259")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 // Add DbContext
 builder.Services.AddDbContext<PwtDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-app.UseHttpsRedirection();
 
 // Test endpoint for database connection
 app.MapGet("/test-connection", async (PwtDbContext db) =>
@@ -34,32 +44,20 @@ app.MapGet("/test-connection", async (PwtDbContext db) =>
 // Get products with stock status
 app.MapGet("/products", async (PwtDbContext db) =>
 {
-    try
-    {
-        var products = await db.Products.ToListAsync();
-        var inventories = await db.Inventories.ToListAsync();
-
-        var productsWithStock = products.Select(p => new ProductDto
+    var products = await db.Products
+        .Select(p => new ProductDto
         {
-            SupplierNo = p.SupplierNo,
-            ItemGroupId = p.ItemGroupId,
-            ItemGroupName = p.ItemGroupName,
-            StyleNo = p.StyleNo,
-            ItemDescription = p.ItemDescription,
-            Size = p.Size,
-            EAN = p.EAN,
-            ColorCodeName = p.ColorCodeName,
-            Season = p.Season,
-            SuggestedRetailPrice = p.SuggestedRetailPrice,
-            InStock = inventories.Any(i => i.EAN == p.EAN && i.InventoryQuantity > 0)
-        });
-
-        return Results.Ok(productsWithStock);
-    }
-    catch (Exception ex)
-    {
-        return Results.Problem($"Failed to get products: {ex.Message}", statusCode: 500);
-    }
+            SupplierNo = p.SupplierNo ?? 0,
+            StyleNo = p.StyleNo ?? "",
+            ItemDescription = p.ItemDescription ?? "",
+            Size = p.Size ?? "",
+            ColorCodeName = p.ColorCodeName ?? "",
+            EAN = p.EAN ?? "",
+            InStock = db.Inventories.Any(i => i.EAN == p.EAN && i.InventoryQuantity > 0),
+            SuggestedRetailPrice = p.SuggestedRetailPrice ?? 0
+        })
+        .ToListAsync();
+    return Results.Ok(products);
 });
 
 // Get single product by EAN
@@ -76,16 +74,16 @@ app.MapGet("/products/{ean}", async (string ean, PwtDbContext db) =>
         var inventories = await db.Inventories.ToListAsync();
         var productDto = new ProductDto
         {
-            SupplierNo = product.SupplierNo,
-            ItemGroupId = product.ItemGroupId,
-            ItemGroupName = product.ItemGroupName,
-            StyleNo = product.StyleNo,
-            ItemDescription = product.ItemDescription,
-            Size = product.Size,
-            EAN = product.EAN,
-            ColorCodeName = product.ColorCodeName,
-            Season = product.Season,
-            SuggestedRetailPrice = product.SuggestedRetailPrice,
+            SupplierNo = product.SupplierNo ?? 0,
+            ItemGroupId = product.ItemGroupId ?? 0,
+            ItemGroupName = product.ItemGroupName ?? string.Empty,
+            StyleNo = product.StyleNo ?? string.Empty,
+            ItemDescription = product.ItemDescription ?? string.Empty,
+            Size = product.Size ?? string.Empty,
+            EAN = product.EAN ?? string.Empty,
+            ColorCodeName = product.ColorCodeName ?? string.Empty,
+            Season = product.Season ?? string.Empty,
+            SuggestedRetailPrice = product.SuggestedRetailPrice ?? 0,
             InStock = inventories.Any(i => i.EAN == product.EAN && i.InventoryQuantity > 0)
         };
 
@@ -107,16 +105,16 @@ app.MapGet("/products/size/{size}", async (string size, PwtDbContext db) =>
 
         var productsWithStock = products.Select(p => new ProductDto
         {
-            SupplierNo = p.SupplierNo,
-            ItemGroupId = p.ItemGroupId,
-            ItemGroupName = p.ItemGroupName,
-            StyleNo = p.StyleNo,
-            ItemDescription = p.ItemDescription,
-            Size = p.Size,
-            EAN = p.EAN,
-            ColorCodeName = p.ColorCodeName,
-            Season = p.Season,
-            SuggestedRetailPrice = p.SuggestedRetailPrice,
+            SupplierNo = p.SupplierNo ?? 0,
+            ItemGroupId = p.ItemGroupId ?? 0,
+            ItemGroupName = p.ItemGroupName ?? string.Empty,
+            StyleNo = p.StyleNo ?? string.Empty,
+            ItemDescription = p.ItemDescription ?? string.Empty,
+            Size = p.Size ?? string.Empty,
+            EAN = p.EAN ?? string.Empty,
+            ColorCodeName = p.ColorCodeName ?? string.Empty,
+            Season = p.Season ?? string.Empty,
+            SuggestedRetailPrice = p.SuggestedRetailPrice ?? 0,
             InStock = inventories.Any(i => i.EAN == p.EAN && i.InventoryQuantity > 0)
         });
 
@@ -138,16 +136,16 @@ app.MapGet("/products/sort/price", async (bool? ascending, PwtDbContext db) =>
 
         var productsWithStock = products.Select(p => new ProductDto
         {
-            SupplierNo = p.SupplierNo,
-            ItemGroupId = p.ItemGroupId,
-            ItemGroupName = p.ItemGroupName,
-            StyleNo = p.StyleNo,
-            ItemDescription = p.ItemDescription,
-            Size = p.Size,
-            EAN = p.EAN,
-            ColorCodeName = p.ColorCodeName,
-            Season = p.Season,
-            SuggestedRetailPrice = p.SuggestedRetailPrice,
+            SupplierNo = p.SupplierNo ?? 0,
+            ItemGroupId = p.ItemGroupId ?? 0,
+            ItemGroupName = p.ItemGroupName ?? string.Empty,
+            StyleNo = p.StyleNo ?? string.Empty,
+            ItemDescription = p.ItemDescription ?? string.Empty,
+            Size = p.Size ?? string.Empty,
+            EAN = p.EAN ?? string.Empty,
+            ColorCodeName = p.ColorCodeName ?? string.Empty,
+            Season = p.Season ?? string.Empty,
+            SuggestedRetailPrice = p.SuggestedRetailPrice ?? 0,
             InStock = inventories.Any(i => i.EAN == p.EAN && i.InventoryQuantity > 0)
         });
 
@@ -173,16 +171,16 @@ app.MapGet("/products/instock", async (PwtDbContext db) =>
 
         var productsWithStock = products.Select(p => new ProductDto
         {
-            SupplierNo = p.SupplierNo,
-            ItemGroupId = p.ItemGroupId,
-            ItemGroupName = p.ItemGroupName,
-            StyleNo = p.StyleNo,
-            ItemDescription = p.ItemDescription,
-            Size = p.Size,
-            EAN = p.EAN,
-            ColorCodeName = p.ColorCodeName,
-            Season = p.Season,
-            SuggestedRetailPrice = p.SuggestedRetailPrice,
+            SupplierNo = p.SupplierNo ?? 0,
+            ItemGroupId = p.ItemGroupId ?? 0,
+            ItemGroupName = p.ItemGroupName ?? string.Empty,
+            StyleNo = p.StyleNo ?? string.Empty,
+            ItemDescription = p.ItemDescription ?? string.Empty,
+            Size = p.Size ?? string.Empty,
+            EAN = p.EAN ?? string.Empty,
+            ColorCodeName = p.ColorCodeName ?? string.Empty,
+            Season = p.Season ?? string.Empty,
+            SuggestedRetailPrice = p.SuggestedRetailPrice ?? 0,
             InStock = inventories.Any(i => i.EAN == p.EAN && i.InventoryQuantity > 0)
         })
         .Where(p => p.InStock)

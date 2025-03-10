@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PwtBlazor2.props" />
+</Project>

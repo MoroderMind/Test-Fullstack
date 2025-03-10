@@ -1,6 +1,8 @@
-namespace PwtApi.Models;
+using System.Text.Json.Serialization;
 
-public class ProductDto
+namespace PwtBlazor2.Models;
+
+public class Product
 {
     public int SupplierNo { get; set; }
     public int ItemGroupId { get; set; }
