@@ -1,0 +1,42 @@
+# Visual Studio specific
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+
+# Dependencies
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+packages.lock.json
+
+# ASP.NET-specific
+appsettings.json
+appsettings.*.json
+secrets.json
+.env
+*.db
+*.db-shm
+*.db-wal
+
+# Blazor/WebAssembly
+wwwroot/css/app.css
+wwwroot/js/
+node_modules/
+dist/
+coverage/
+
+# Logs and debugging
+logs/
+*.log
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
